@@ -1,0 +1,14 @@
+apps:
+  - name: ooredoo
+    app_id: REPLACE_WITH_PACKAGE_ID
+  - name: orange
+    app_id: REPLACE_WITH_PACKAGE_ID
+  - name: tunisie_telecom
+    app_id: REPLACE_WITH_PACKAGE_ID
+
+locales:          # (language, country) pairs
+  - [ar, tn]
+  - [fr, tn]
+  - [en, tn]
+
+reviews_per_locale: 2000

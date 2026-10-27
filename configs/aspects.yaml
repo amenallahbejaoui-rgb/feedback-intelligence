@@ -1,0 +1,14 @@
+aspects:
+  network_coverage: "Signal, coverage, dropped calls, no network"
+  internet_speed: "Data speed, latency, 4G/5G quality"
+  app_stability: "Crashes, freezes, bugs, slow loading of the app"
+  login_auth: "Login, OTP/SMS codes, password reset, account lockout"
+  payment_topup: "Recharge, top-up, paying bills, payment failures"
+  pricing_offers: "Prices, packages, promotions, hidden fees"
+  billing: "Invoices, wrong charges, balance deductions"
+  customer_support: "Support agents, response time, complaints handling"
+  ui_ux: "Design, navigation, language options, ease of use"
+  other: "Anything else (explain in notes)"
+
+languages: [ar, fr, en, aeb_arabic_script, aeb_arabizi, mixed]
+sentiments: [positive, negative, neutral, mixed]
