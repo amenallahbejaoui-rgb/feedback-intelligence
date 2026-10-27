@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: feedback-intelligence
+Version: 0.1.0
+Requires-Python: <3.13,>=3.11
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy
+Requires-Dist: pydantic>=2.0
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+Requires-Dist: scikit-learn
+Requires-Dist: duckdb
+Requires-Dist: tqdm
+Requires-Dist: google-play-scraper
+Requires-Dist: langdetect
+Requires-Dist: emoji
+Provides-Extra: nlp
+Requires-Dist: sentence-transformers; extra == "nlp"
+Requires-Dist: bertopic; extra == "nlp"
+Requires-Dist: umap-learn; extra == "nlp"
+Requires-Dist: hdbscan; extra == "nlp"
+Requires-Dist: transformers; extra == "nlp"
+Requires-Dist: datasets; extra == "nlp"
+Requires-Dist: torch; extra == "nlp"
+Requires-Dist: ruptures; extra == "nlp"
+Provides-Extra: app
+Requires-Dist: fastapi; extra == "app"
+Requires-Dist: uvicorn; extra == "app"
+Requires-Dist: streamlit; extra == "app"
+Requires-Dist: plotly; extra == "app"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: dvc; extra == "dev"
+Requires-Dist: jupyterlab; extra == "dev"
+Requires-Dist: label-studio; extra == "dev"

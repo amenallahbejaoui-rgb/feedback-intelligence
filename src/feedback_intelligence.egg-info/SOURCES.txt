@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/feedback/__init__.py
+src/feedback/schemas.py
+src/feedback/absa/__init__.py
+src/feedback/api/__init__.py
+src/feedback/embeddings/__init__.py
+src/feedback/eval/__init__.py
+src/feedback/ingest/__init__.py
+src/feedback/topics/__init__.py
+src/feedback/trends/__init__.py
+src/feedback_intelligence.egg-info/PKG-INFO
+src/feedback_intelligence.egg-info/SOURCES.txt
+src/feedback_intelligence.egg-info/dependency_links.txt
+src/feedback_intelligence.egg-info/requires.txt
+src/feedback_intelligence.egg-info/top_level.txt
+tests/test_schemas.py
